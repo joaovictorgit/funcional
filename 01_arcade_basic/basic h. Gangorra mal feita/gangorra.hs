@@ -4,6 +4,8 @@ lado_garoto2 p2 c2 = p2 * c2
 gangorra p1 c1 p2 c2 = 
     if lado_garoto1 p1 c1 == lado_garoto2 p2 c2
         then 0
+        else if lado_garoto1 p1 c1 > lado_garoto2 p2 c2
+            then -1
         else 1
 
 main = do
