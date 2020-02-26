@@ -1,0 +1,3 @@
+lista = init [x | x <- [1..10]]
+
+tail(lista)
