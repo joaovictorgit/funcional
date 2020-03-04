@@ -1,0 +1,1 @@
+concatenar lista01 lista02 = lista01 ++ lista02

@@ -1,0 +1,1 @@
+maiores_que lista n = [x | x <- lista, x > n]

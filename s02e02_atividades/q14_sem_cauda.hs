@@ -1,0 +1,1 @@
+sem_cauda lista = init lista

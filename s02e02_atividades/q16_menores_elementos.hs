@@ -1,0 +1,1 @@
+menores_elementos lista n = if n > length lista then lista else [x | x <- lista , x <= n]

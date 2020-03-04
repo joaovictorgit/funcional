@@ -1,0 +1,1 @@
+soma lista = sum lista

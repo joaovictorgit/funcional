@@ -1,0 +1,1 @@
+elemento_contido' lista n = n `elem` lista

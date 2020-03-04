@@ -1,0 +1,1 @@
+cauda_lista lista = tail lista

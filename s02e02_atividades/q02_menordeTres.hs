@@ -1,0 +1,1 @@
+menordeTres' a b c = min (min a b) c

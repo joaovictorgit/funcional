@@ -1,0 +1,1 @@
+lista_inversa lista = reverse lista

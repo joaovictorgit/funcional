@@ -1,0 +1,1 @@
+unico lista n = (length(filter(== n) lista)) <= 1
