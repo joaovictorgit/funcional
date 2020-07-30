@@ -146,7 +146,12 @@ rotDir n xs
     | otherwise = (take (mod n (length xs)) (reverse xs)) ++ reverse (drop (mod n (length xs)) (reverse xs))
 
 -- 29 upper
-upper xs = [toUpper x | x <- xs]
+l_int [] = []
+l_int (x:xs) 
+    | ((ord x >= 97) && (ord x < 123)) = (ord x)-32: l_int xs
+    | otherwise = (ord x) : l_int xs
+
+upper xs = [chr x | x <- (l_int xs)]
 
    
 -- 30 titulo
