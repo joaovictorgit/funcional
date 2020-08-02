@@ -1,4 +1,4 @@
-# funcional
+# Lista 01
 
 - O que você fez
     - Fiz as questões da Lista 01
