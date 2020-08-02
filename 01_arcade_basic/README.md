@@ -1,4 +1,4 @@
-# funcional
+# Arcade
 
 - O que você fez
     - Fiz as questões do arcade_basic
