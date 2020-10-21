@@ -187,6 +187,22 @@ troca (x:x1:xs)
     | x > x1 = x1: troca (x:xs)
     | otherwise = x: troca (x1:xs)
 
+-- 36 compac
+
+contar [] = []
+contar [x] = [x]
+contar (x:x1:xs) 
+    | x /= x1 = 0:[]
+    | otherwise = 1:contar  [k | k <- (x1:xs), x == x1]
+
+tam (x:xs) = length [c | c <- contar (x:xs)]
+
+compac [] = []
+compac (x:xs) 
+    | (tam (x:xs) <= 1) = comp1
+    | otherwise = comp2
+    where comp1 = [x: []] ++compac (filter (/=x) [a | a <- xs])
+          comp2 = [x: [tam (x:xs)]] ++ compac (filter (/=x) [a | a <- xs])
 
 -- 37 splitints
 par xs = [x | x <- xs, mod x 2 == 0]

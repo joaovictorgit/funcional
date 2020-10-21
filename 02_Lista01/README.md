@@ -7,7 +7,7 @@
 	  
 - O que aprendeu e sabe fazer
 	- Aprendi a utilizar as funções de forma recursiva, filters, let in, where, pipes, etc
-	- Soube fazer as questões propostas, com execeção das questões 30, 36, 39, 40
+	- Soube fazer as questões propostas, com execeção das questões 30, 39, 40.
 	
 - O que tem dificuldade ainda
 	- Tive dificuldade principalmente em tuplas e na parte de listas de char na questão 30
