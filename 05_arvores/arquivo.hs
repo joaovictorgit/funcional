@@ -103,3 +103,10 @@ menorNivel :: ArvBin a -> [a]
 menorNivel (VaziaBin) = []
 menorNivel (NoBin x (VaziaBin) (VaziaBin)) = [x]
 menorNivel  (NoBin x esq dir) = (menorNivel esq) ++ (menorNivel dir) 
+
+-- Q5 arvoreCheia
+arvoreCheia (NoBin _ VaziaBin VaziaBin) = True
+arvoreCheia (NoBin x esq dir)
+    | esq == VaziaBin && dir /= VaziaBin = False
+    | esq /= VaziaBin && dir == VaziaBin = False
+    | otherwise = arvoreCheia esq 
