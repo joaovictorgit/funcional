@@ -7,7 +7,7 @@
 	  
 - O que aprendeu e sabe fazer
 	- Aprendi a usar árvores binária.
-	- Soube fazer apenas 5 questões do tópico proposto
+	- Soube fazer apenas 6 questões do tópico proposto
 	
 - O que tem dificuldade ainda
 	- Tive dificuldade principalmente em conseguir desenvolver as funções.
